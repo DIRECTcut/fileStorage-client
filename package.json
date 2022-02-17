@@ -6,7 +6,8 @@
     "serve": "./node_modules/.bin/vue-cli-service serve --port 8080",
     "build": "./node_modules/.bin/vue-cli-service build",
     "lint": "./node_modules/.bin/vue-cli-service lint",
-    "prestart": "npm install && rm -rf ./public && npm run build"
+    "prestart": "npm install && rm -rf ./public && npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.25.0",
