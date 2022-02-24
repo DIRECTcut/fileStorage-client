@@ -1,7 +1,7 @@
 export default {
     methods: {
         getFileDownloadLink(id) {
-            return `http://localhost:5000/files/download/${id}`;
+            return `${process.env.VUE_APP_BACKEND_URL}/files/download/${id}`;
           },
       }
 }
